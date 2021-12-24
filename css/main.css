@@ -13,6 +13,25 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
+.hero__title {
+  font-size: 48px;
+  line-height: 62px;
+}
+
+.header__btn {
+  border-radius: 200px;
+  background-color: #9400FF;
+  text-transform: capitalize;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.header__btn:hover {
+  background-color: #9400FF00;
+  -webkit-box-shadow: 0px 0px 0px 1px #9400ff inset;
+          box-shadow: 0px 0px 0px 1px #9400ff inset;
+  color: #9400FF;
+}
+
 button {
   cursor: pointer;
   border: 0;
@@ -73,14 +92,33 @@ a {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.menu__list li a {
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
 .menu__list li:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 .menu__list li:hover a {
-  color: #154fe3;
+  color: #9400FF;
+}
+
+.menu__link {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.header__btn {
+  padding: 4px 16px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.hero__content {
+  padding-top: 115px;
+}
+
+.hero__about {
+  max-width: 578px;
+}
+
+.hero__comment {
+  line-height: 25px;
 }
