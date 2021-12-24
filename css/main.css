@@ -124,7 +124,7 @@ a {
 }
 
 .icons {
-  margin: 101 112.5px;
+  margin: 101px 112.5px;
   height: 4211.28px;
 }
 
@@ -132,13 +132,24 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Manrope";
 }
 
 .icons_title{
-  width: 400px;
+  width: 450px;
+  font-size: 48px;
   line-height: 62px;
   margin-top: 247px;
+  margin-bottom: 22px;
+}
+
+.icons_title p{
+  line-height: 30px;
+}
+
+.icons_text{
+  font-family: "Manrope";
+  max-height: 320px;
+  max-width: 410px;
 }
 
 .pohone{
