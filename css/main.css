@@ -18,6 +18,10 @@ button {
   border: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 li {
   font-style: none;
 }
