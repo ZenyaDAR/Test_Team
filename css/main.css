@@ -84,3 +84,19 @@ a {
 .menu__list li:hover a {
   color: #154fe3;
 }
+
+.icons {
+  margin: 101 112.5px;
+  height: 4211.28px;
+}
+
+.icons_body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Manrope";
+}
+
+.pohone{
+  flex-basis: 979px;
+}
