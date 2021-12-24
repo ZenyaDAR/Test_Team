@@ -135,6 +135,12 @@ a {
   font-family: "Manrope";
 }
 
+.icons_title{
+  width: 400px;
+  line-height: 62px;
+  margin-top: 247px;
+}
+
 .pohone{
   flex-basis: 979px;
 }
