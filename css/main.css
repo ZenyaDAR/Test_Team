@@ -148,7 +148,8 @@ a {
 
 .icons_text{
   font-family: "Manrope";
-  max-height: 320px;
+  line-height: 30px;
+  height: 950px;
   max-width: 410px;
 }
 
