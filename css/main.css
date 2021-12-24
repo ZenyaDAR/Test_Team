@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+}
+
+.leading {
+    position: absolute;
+    width: 1440px;
+    height: 955px;
+    left: 0px;
+    top: 0px;
+    background-image: url(img/leading.png);
+}
+
+.heder {
+}
+
+.logo {
+    height: 18px;
+    background-image: url(img/logo.png);
+}
+
+.nav {
+}
