@@ -1,6 +1,6 @@
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -18,17 +18,69 @@ button {
   border: 0;
 }
 
-a {
-    text-decoration: none;
-    color:#fff;
-}
-
 li {
   font-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .container {
   max-width: 1210px;
   padding: 0 10px;
   margin: 0 auto;
+}
+
+.hero {
+  height: 100vh;
+  background: url(../img/leading.png) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+  z-index: 1;
+  background-attachment: fixed;
+}
+
+.header {
+  width: 100%;
+  min-height: 70px;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.header__body {
+  padding-top: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.menu__list li + li {
+  margin-left: 40px;
+}
+.menu__list li {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.menu__list li a {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.menu__list li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.menu__list li:hover a {
+  color: #154fe3;
 }
