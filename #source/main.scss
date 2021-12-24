@@ -1,1 +1,42 @@
 @import "null.scss";
+
+.hero{
+    height: 100vh;
+    background: url(../img/leading.png) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+.header{
+    width: 100%;
+    min-height: 70px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.header__body{
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list{
+    display: flex;
+    li + li{
+        margin-left: 40px;
+    }
+    & li{
+        a{
+            transition: all 0.3s ease-out;
+        }
+        transition: all 0.3s ease-out;
+    }
+    & li:hover{
+        & a{
+            color: #154fe3;
+        }
+        transform: scale(1.1);
+    }
+}
