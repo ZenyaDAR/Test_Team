@@ -2,7 +2,7 @@ body{
     margin: 0px;
 }
 
-.leading {
+.header__body {
     position: absolute;
     width: 1440px;
     height: 955px;
