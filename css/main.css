@@ -97,27 +97,7 @@ a {
           transform: scale(1.1);
 }
 .menu__list li:hover a {
-<<<<<<< HEAD
   color: #154fe3;
-}
-
-.icons {
-  margin: 101 112.5px;
-  height: 4211.28px;
-}
-
-.icons_body {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Manrope";
-}
-
-.pohone{
-  flex-basis: 979px;
-}
-=======
-  color: #9400FF;
 }
 
 .menu__link {
@@ -142,4 +122,19 @@ a {
 .hero__comment {
   line-height: 25px;
 }
->>>>>>> e93ed49879c46f7f2f52a9ac7ded9a168878d01e
+
+.icons {
+  margin: 101 112.5px;
+  height: 4211.28px;
+}
+
+.icons_body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Manrope";
+}
+
+.pohone{
+  flex-basis: 979px;
+}
