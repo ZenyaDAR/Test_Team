@@ -13,6 +13,15 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
+.header__body {
+    position: absolute;
+    width: 1440px;
+    height: 955px;
+    left: 0px;
+    top: 0px;
+    background-image: url(img/leading.png) no-re;
+}
+
 button {
   cursor: pointer;
   border: 0;
