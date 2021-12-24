@@ -9,4 +9,24 @@ body{
     font-size: 16px;
     line-height: 30px;
     color: #fff;
+    font-family: 'Manrope', sans-serif;
+}
+
+%title-main{
+    font-size: 48px;
+    line-height: 62px;
+}
+
+%title-second{
+    font-size: 29px;
+    line-height: 40px;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+}
+
+li {
+    font-style: none;
 }
