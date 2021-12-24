@@ -1,24 +1,23 @@
-body{
-    background-color: #000;
-    font-family: 'Manrope';
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.header__body {
-    position: absolute;
-    width: 1440px;
-    height: 955px;
-    left: 0px;
-    top: 0px;
-    background-image: url(img/leading.png) no-re;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
 }
 
-.heder {
+button {
+  cursor: pointer;
+  border: 0;
 }
 
-.logo {
-    height: 18px;
-    background-image: url(img/logo.png) no-re;
-}
-
-.nav {
+li {
+  font-style: none;
 }
