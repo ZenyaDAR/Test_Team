@@ -28,15 +28,40 @@
         margin-left: 40px;
     }
     & li{
-        a{
-            transition: all 0.3s ease-out;
-        }
         transition: all 0.3s ease-out;
     }
     & li:hover{
         & a{
-            color: #154fe3;
+            color: #9400FF;
         }
         transform: scale(1.1);
     }
+}
+
+.menu__link{
+    transition: all 0.3s ease-out;
+}
+
+.header__btn{
+    @extend %btn;
+    padding: 4px 16px;
+    transition: all 0.3s ease;
+}
+
+// about
+
+.hero__content{
+    padding-top: 115px;
+}
+
+.hero__about{
+    max-width: 578px;
+}
+
+.hero__comment{
+    line-height: 25px;
+}
+
+.hero__title{
+    @extend %title-main;
 }
