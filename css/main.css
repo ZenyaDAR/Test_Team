@@ -176,3 +176,16 @@ a {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
+.d3_icons{
+  display: flex;
+}
+
+.d3_icons_txt {
+  font-family: "Manrope";
+  font-size: 29px;
+  text-align: center;
+}
+.d3_icons_photo {
+  text-align: center;
+}
