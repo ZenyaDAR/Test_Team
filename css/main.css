@@ -138,8 +138,7 @@ a {
   width: 450px;
   font-size: 48px;
   line-height: 62px;
-  margin-top: 247px;
-  margin-bottom: 22px;
+  padding-bottom: 22px;
 }
 
 .icons_title p{
@@ -147,9 +146,7 @@ a {
 }
 
 .icons_text{
-  font-family: "Manrope";
   line-height: 30px;
-  height: 950px;
   max-width: 410px;
 }
 
@@ -164,6 +161,11 @@ a {
   padding: 15px 42px;
   border-radius: 200px;
   margin-top: 55px;
+}
+
+.icons_subtitle{
+  margin-bottom: 54px;
+  padding-left: 30px;
 }
 
 .hero__title {
