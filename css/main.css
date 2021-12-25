@@ -235,10 +235,7 @@ a {
 .icons_dog_text p{
   margin-top: 35px;
   max-width: 499px;
+  margin-bottom: 41px;
   font-size: 16px;
   line-height: 30px;
-}
-
-.icons_dog_text a{
-  margin-top: 41px;
 }
