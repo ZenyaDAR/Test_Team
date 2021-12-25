@@ -52,6 +52,10 @@ a {
   margin: 0 auto;
 }
 
+.burger {
+  display: none;
+}
+
 .hero {
   height: 100vh;
   background: url(../img/leading.png) no-repeat center;
@@ -175,4 +179,58 @@ a {
   padding: 15px 42px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+.d3_icons{
+  display: flex;
+}
+
+.d3_icons_txt {
+  font-family: "Manrope";
+  font-size: 29px;
+  text-align: center;
+}
+.d3_icons_photo {
+  text-align: center;
+  width: 100%;
+}
+
+.big_icons{
+  margin-top: 99px;
+  display: flex;
+}
+
+.big_icons .container h2 {
+  text-align: center;
+  font-family: "Manrope";
+  font-size: 29px;
+
+}
+.big_icons_photo {
+  width: 100%;
+  margin-top: 31px;
+}
+
+.icons_dog {
+  margin-top: 150px;
+}
+.icons_dog_body {
+  display: flex;
+  justify-content: space-between;
+}
+.icons_dog_body img{
+
+}
+.icons_dog_text {
+  font-family: "Manrope";
+}
+
+.icons_dog_text h2{
+   font-size: 29px;
+}
+
+.icons_dog_text p{
+  margin-top: 35px;
+  font-size: 16px;
+  line-height: 30px;
 }
