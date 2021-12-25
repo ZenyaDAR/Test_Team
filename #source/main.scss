@@ -64,4 +64,11 @@
 
 .hero__title{
     @extend %title-main;
+    padding: 14px 0 58px 0;
+}
+
+.btn{
+    @extend %btn;
+    padding: 15px 42px;
+    transition: all 0.3s ease;
 }
