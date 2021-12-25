@@ -125,7 +125,7 @@ a {
 
 .icons {
   margin: 101px 112.5px;
-  height: 4211.28px;
+  height: 1227px;
 }
 
 .icons_body {
@@ -155,4 +155,13 @@ a {
 
 .pohone{
   flex-basis: 979px;
+}
+
+.icons_btn{
+  font-size: 13px;
+  font-family: "IBM Plex Mono";
+  background-color: #9400FF;
+  padding: 15px 42px;
+  border-radius: 200px;
+  margin-top: 55px;
 }
