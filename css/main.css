@@ -187,7 +187,6 @@ a {
 }
 
 .d3_icons_txt {
-  font-family: "Manrope";
   font-size: 29px;
   text-align: center;
 }
@@ -203,7 +202,6 @@ a {
 
 .big_icons .container h2 {
   text-align: center;
-  font-family: "Manrope";
   font-size: 29px;
 
 }
@@ -219,13 +217,10 @@ a {
   display: flex;
   justify-content: space-between;
 }
-.icons_dog_body img{
 
-}
 .icons_dog_text {
   margin-top: 65px;
   margin-left: 70px;
-  font-family: "Manrope";
 }
 
 .icons_dog_text h2{
@@ -242,10 +237,23 @@ a {
 
 .key{
   display: flex;
+  height: auto;
+  background: url(../img/back.png) no-repeat center;
+  background-size: cover;
+  height: 433px;
 }
 
 .key_body{
- background: url("img/back.png") no-repeat center;
- width: 100%;
- z-index: 1;
+  text-align: center;
+}
+
+.key_body h2{
+  font-size: 51px;
+  margin-top: 106px;
+  margin-bottom: 32px;
+}
+
+.key_body p{
+  font-size: 18px;
+  margin-bottom: 57px;
 }
