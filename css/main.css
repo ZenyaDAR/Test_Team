@@ -195,12 +195,11 @@ a {
   display: flex;
 }
 
-.big_icons_txt {
+.big_icons .container h2 {
+  align-items: center;
   font-family: "Manrope";
   font-size: 29px;
-  align-items: center;
+
 }
 .big_icons_photo {
-  text-align: center;
-  width: 100%;
 }
