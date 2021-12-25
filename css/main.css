@@ -239,3 +239,13 @@ a {
   font-size: 16px;
   line-height: 30px;
 }
+
+.key{
+  display: flex;
+}
+
+.key_body{
+ background: url("img/back.png") no-repeat center;
+ width: 100%;
+ z-index: 1;
+}
