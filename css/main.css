@@ -219,6 +219,9 @@ a {
 
 }
 .icons_dog_text {
+  margin-top: 65px;
+  margin-left: 100
+  px;
   font-family: "Manrope";
 }
 
@@ -228,6 +231,7 @@ a {
 
 .icons_dog_text p{
   margin-top: 35px;
+  max-width: 499px;
   font-size: 16px;
   line-height: 30px;
 }
