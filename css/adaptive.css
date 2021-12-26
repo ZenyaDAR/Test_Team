@@ -49,7 +49,7 @@
 
   .header__menu {
     position: fixed;
-    top: -200%;
+    top: -100%;
     left: 0;
     height: 100vh;
     width: 100%;
@@ -215,6 +215,7 @@
 
   .icons_dog_body .icons_dog_text{
     width: 100%;
+    margin-left: 0px;
   }
 
   .icons_text{
