@@ -7,14 +7,14 @@
 
   .header__btn_pos {
     margin-right: 30px;
-    padding: 15px 16px;
+    padding: 12px 16px;
   }
 
   .burger {
     width: 50px;
     height: 40px;
     display: block;
-    margin-right: 30px;
+    margin-right: 20px;
     position: relative;
   }
 
@@ -142,5 +142,32 @@
 
   .big_icons_photo img{
     width: 100%;
+  }
+  .logo__link img{
+    width: 130px;
+  }
+  .hero__about{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .hero__content {
+    padding-top: 155px;
+  }
+}
+
+@media screen and (max-width: 466px){
+  .logo__link img{
+    width: 120px;
+  }
+  .header__btn_pos {
+    margin-right: 20px;
+    padding: 10px 14px;
+  }
+  .burger{
+    width: 40px;
+    height: 30px;
+  }
+  .burger span{
+    top: 14px;
   }
 }
