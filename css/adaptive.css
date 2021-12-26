@@ -102,4 +102,45 @@
   .header__menu.active {
     top: 0;
   }
+
+  .icons_body{
+    flex-wrap: wrap;
+  }
+
+  .icons_text{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .icons_body img{
+    width: 100%;
+  }
+
+  .d3_icons{
+    flex-wrap: wrap;
+  }
+
+  .d3_icons_txt{
+    text-align: center;
+    width: 100%;
+  }
+
+  .d3_icons_photo img{
+    width: 100%;
+  }
+
+  .big_icons{
+    flex-wrap: wrap;
+  }
+
+  .big_icons .container h2{
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .big_icons_photo img{
+    width: 100%;
+  }
 }
