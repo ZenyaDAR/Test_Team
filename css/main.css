@@ -129,7 +129,7 @@ a {
 }
 
 .icons {
-  margin: 101px 112.5px;
+  margin: 101px 0;
 }
 
 .icons_body {
@@ -138,20 +138,15 @@ a {
   align-items: center;
 }
 
-.icons_title{
-  width: 450px;
+.icons_title {
   font-size: 48px;
   line-height: 62px;
   padding-bottom: 22px;
 }
 
-.icons_title p{
+.icons_text {
   line-height: 30px;
-}
-
-.icons_text{
-  line-height: 30px;
-  max-width: 410px;
+  max-width: 450px;
 }
 
 .pohone{
@@ -246,6 +241,7 @@ a {
 
 .key_body{
   text-align: center;
+  width: 100%;
 }
 
 .key_body h2{

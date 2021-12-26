@@ -113,11 +113,7 @@
     margin-bottom: 30px;
   }
 
-  .icons_body img{
-    width: 100%;
-  }
-
-  .d3_icons{
+  .d3_icons {
     flex-wrap: wrap;
   }
 
@@ -169,5 +165,77 @@
   }
   .burger span{
     top: 14px;
+  }
+}
+
+@media(max-width: 1024px){
+  .hero__content {
+    padding-top: 67px;
+  }
+
+  .icons_body .phone{
+    width: 55%;
+  }
+
+  .d3_icons_photo img{
+    width: 100%;
+  }
+
+  .big_icons_photo img{
+    width: 100%;
+  }
+}
+
+@media(max-width: 425px){
+  .header__body {
+    padding-top: 15px;
+  }
+
+  .hero__title {
+    font-size: 48px;
+    line-height: 55px;
+  }
+
+  .icons_body .icons_text{
+    width: 100%;
+    text-align: center;
+    left: 50%;
+  }
+  
+  .icons_body .phone{
+    width: 100%;
+  }
+
+  .icons_dog_body{
+    flex-wrap: wrap;
+  }
+  .icons_dog_body img{
+    width: 100%;
+  }
+
+  .icons_dog_body .icons_dog_text{
+    width: 100%;
+  }
+
+  .icons_text{
+    width: 100%;
+  }
+
+  .icons_dog_text {
+    text-align: center;
+  }
+}
+
+@media(max-width: 375px){
+  .hero__about h1{
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
+
+@media(max-width: 320px){
+  .hero__about h1{
+    font-size: 35px;
+    line-height: 50px;
   }
 }
