@@ -148,7 +148,7 @@
   }
   .hero__about{
     text-align: center;
-    margin: 100px auto;
+    margin: 50px auto;
   }
   .hero__content {
     padding-top: 155px;
@@ -215,6 +215,10 @@
     line-height: 55px;
   }
 
+  .hero__content {
+    padding-top: 0px;
+  }
+
   .icons_body .icons_text{
     width: 100%;
     text-align: center;
@@ -247,6 +251,9 @@
 }
 
 @media(max-width: 375px){
+  .hero__content {
+    padding-top: 25px;
+  }
   .hero__about h1{
     font-size: 40px;
     line-height: 55px;
@@ -254,6 +261,9 @@
 }
 
 @media(max-width: 320px){
+  .hero__content {
+    padding-top: 10px;
+  }
   .hero__about h1{
     font-size: 35px;
     line-height: 50px;

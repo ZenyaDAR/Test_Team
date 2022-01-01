@@ -58,7 +58,7 @@ a {
 }
 
 .hero {
-  height: 100vh;
+  height: 600px;
   background: url(../img/leading.png) no-repeat center;
   background-size: cover;
   overflow: hidden;
@@ -117,7 +117,7 @@ a {
 }
 
 .hero__content {
-  padding-top: 115px;
+  padding-top: 65px;
 }
 
 .hero__about {
